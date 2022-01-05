@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500&display=swap");
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#prologue,#PRODUCT,#NEWS,#SNS,#navend,footer{
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+#prologue,#PRODUCT,#NEWS{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#SNS,#navend,footer{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+body{
+  background-color: #FFFFFF;
+}
+#prologue,#NEWS,header{
+  background-color: #EEEEEE;
+  margin: 0;
+}
+
+#navend{
+  background-color: #AAAAAA;
+}
+footer{
+  background-color: #777777;
+}
+
+
+#prologue,#footer{
+  text-align: center;
+}
+
+#prologue > h2{
+  font-size: 43px;
+  font-family:"Noto Sans JP",sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+#TXT{
+  margin-top: 50px;
+  display: inline-block;
+  text-align: left;
+}
+
+.txt{
+  font-size: 20px;
+  font-family:"Noto Sans JP",sans-serif;
+  font-weight:100;
+  letter-spacing: 0.07em;
+  margin-bottom: 30px;
+  line-height: 35px;
+}
+
+#TXT :nth-child(4){
+  font-size: 31px;
+  font-family:"Noto Sans JP",sans-serif;
+  text-align: center;
+  margin: 35px auto;
+}
+
+rt{
+  font-size: 10px;
+  font-family:"Noto Sans JP",sans-serif;
+  letter-spacing: 2.0em;
+  text-align: center;
+}
+
+img[class^="img"]{
+  width: 205px;
+  height: 260px;
+  border-radius: 5px 35px 35px 5px;
+  box-shadow:
+   3px 3px 0px #FFF,
+   4px 4px 0px #EEE,
+   6px 6px 0px #FFF,
+   15px 15px 15px #BBB;
+}
+
+[class^="sub"]{
+  list-style-type: none;
+  width: 210px;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 50px 50px 50px;
+  clear: both;
+}
+
+.content p{
+  margin: 50px 10px 50px 10px;
+  font-size: 19px;
+  font-family:"Noto Sans JP",sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+
+img[class^="IMG"]{
+  width: 320px;
+  height: 180px;
+}
+
+
+
+.txt2{
+  width: 500px;
+  font-size: 13px;
+  font-family: "Noto Sans JP",sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 22px;
+  margin-left: 30px;
+}
+
+.hyoudai{
+  font-size: 19px;
+  font-family: "Noto Sans JP",sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+}
+
+.txt2 p:first-of-type{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.s1{
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+#NEWS > .s1{
+  margin-bottom: 50px;
+}
+
+#NEWS h2{
+  float: left;
+}
+#PRODUCT h2{
+  float: left;
+}
+.R{
+  float: right;
+  margin-bottom: 80px;
+}
+
+.more{
+  position: relative;
+  display: inline-block;
+  border: 1px solid #000000;
+  font-family:"M PLUS 1p",sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 55px;
+
+  color: #000000;
+  outline: none;
+
+  transition: ease .2s;
+}
+
+.more:hover{
+  background: #000000;
+  color: #fff;
+}
+
+.btnarrow1::after{
+  content:'';
+
+  position: absolute;
+  top: 42%;
+  right: 13px;
+  width:5px;
+  height:5px;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  transform: rotate(45deg);
+
+  transition: all .3s;
+}
+
+.btnarrow1:hover::after{
+  right: 10px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.sectionh2{
+  font-family:"M PLUS 1p",sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  padding-bottom: 20px;
+  background: url(PAS-POL_pi/sen.png) bottom no-repeat;
+  background-size: 70px 10px;
+  background-position-x: 0px;
+}
+
+#SNS{text-align: center;}
+.sns li{
+  list-style-type: none;
+  display: inline-block;
+  width: 130px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.09em;
+  font-family: "Noto Sans JP",sans-serif;
+  padding: 14px 12px;
+  margin: 13px;
+}
+
+.Fa{
+  color: #336699;
+  border: 1px solid #336699;
+}
+.Tw{
+  color: #99CCCC;
+  border: 1px solid #99CCCC;
+}
+.Ha{
+  color: #3399CC;
+  border: 1px solid #3399CC;
+}
+.Fa:hover{
+  background-color:#336699;
+  color: #fff;
+  transition: all .3s;
+  cursor: pointer;
+}
+.Tw:hover{
+  background-color: #99CCCC;
+  color: #fff;
+  transition: all .3s;
+  cursor: pointer;
+}
+.Ha:hover{
+  background-color: #3399CC;
+  color: #fff;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+a{
+  text-decoration:none;
+}
+#navend{
+  text-align: center;
+}
+
+
+#navend li{
+  list-style-type: none;
+  display: inline-block;
+  font-family:"M PLUS 1p",sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  margin: 13px 20px;
+}
+
+#navtop li{
+  list-style-type: none;
+  display: inline-block;
+  font-family:"M PLUS 1p",sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  margin: 0px 12px;
+}
+
+#navtop a{
+  color: #FFF;
+}
+
+#navend a{
+  color: #111111;
+}
+#navtop a:hover,#navend a:hover{
+  color: #cccccc;
+  transition: all .3s;
+}
+
+.taitle>h1{
+  color: #FFF;
+  font-family:"M PLUS 1p",sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.2em;
+}
+
+.taitle>p{
+  color: #FFF;
+  font-family:"M PLUS 1p",sans-serif;
+  font-size: 6px;
+  letter-spacing: 0.6em;
+  text-align: left;
+}
+
+.taitle{
+  position: absolute;
+  z-index: 2;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nnaavv{
+  color: #FFF;
+  position: absolute;
+  z-index: 2;
+  top: 10%;
+  left: 65%;
+  text-transform: uppercase;
+
+}
